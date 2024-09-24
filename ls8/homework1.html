@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .gr{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 80px);
+            grid-auto-rows: 80px;
+            
+        }
+        
+        .orr{
+            background-color: orange;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        
+        .ree{
+            background-color: red;
+            grid-row-start: 2;
+            grid-row-end: 6;
+        }
+
+        .gre{
+            background-color: green;
+            grid-row-start: 2;
+            grid-row-end: 6;
+        }
+
+        .blu{
+            background-color: lightblue;
+            grid-row-start: 2;
+            grid-row-end: 6;
+        }
+
+        .bla{
+            background-color: black;
+            grid-row-start: 2;
+            grid-row-end: 6;
+        }
+
+        .or2{
+            background-color: orange;
+            grid-column-start: 1;
+            grid-column-end: 7;
+
+        }
+    </style>
+
+
+
+    <div class="gr">
+        <div class="orr"></div>
+        <div class="ree"></div>
+        <div class="gre"></div>
+        <div class="blu"></div>
+        <div class="bla"></div>
+        <div class="or2"></div>
+    </div>
+</body>
+</html>

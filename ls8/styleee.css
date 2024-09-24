@@ -1,0 +1,189 @@
+body{
+    border: 2px solid red;
+}
+
+.head{
+    background-color: plum;
+    display: grid;
+    width: 1fr;
+    height: 250px;
+    justify-items: center;
+    align-items: center;
+}
+
+.whi{
+    background-color: white;
+    display: grid;
+    margin-top: 30px;
+    width: 70%;
+    height: 150px;
+    
+}
+
+.bl{
+    background-color: black;
+    width: 70%;
+    height: 60px;
+    justify-self: center;
+    align-self: center;
+}
+
+.gr{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 15px);
+    grid-auto-rows: 15px;
+}
+
+.orr{
+    background-color: grey;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.ree{
+    background-color: red;
+    grid-row-start: 2;
+    grid-row-end: 11;
+}
+
+.gre{
+    background-color: orange;
+    grid-row-start: 2;
+    grid-row-end: 11;
+}
+
+.blu{
+    background-color: aqua;
+    grid-row-start: 2;
+    grid-row-end: 11;
+}
+
+.bla{
+    background-color: yellow;
+    grid-row-start: 2;
+    grid-row-end: 11;
+}
+
+.or2{
+    background-color: grey;
+    grid-column-start: 1;
+    grid-column-end: 7;
+
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 340px);
+    text-align: center;
+}
+
+.gree{
+    background-color: green;
+    display: grid;
+    justify-items: center;
+    align-items: end;
+
+
+}
+
+.ora{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+    width: 60%;
+    height: 80%;  
+    
+    
+}
+
+.pin{
+    background-color: pink;
+    height: 80%;
+}
+
+.yel{
+    background-color: yellow;
+    height: 80%;
+}
+
+
+.aqqu{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+}
+
+.rde{
+    background-color: red;
+    height: 80%;
+}
+
+.cen{
+    background-color: yellow;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+
+}
+
+.one{
+    background-color: orange;
+    height: 80%;
+}
+
+.two{
+    background-color: red;
+    height: 30%;
+}
+
+.lev{
+    background-color: orange;
+    height: 80%;
+}
+
+.bluu{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+
+}   
+
+.thr{
+    background-color: aqua;
+    height: 25%;
+}
+
+.fou{
+    background-color: yellow;
+    height: 35%;
+    margin-bottom: 20px;
+}
+
+.fiv{
+    background-color: orange;
+    display: grid;
+    margin-bottom: 85px;
+    height: 35%;
+}
+
+.text1{
+    background-color: black;
+    color: aqua;
+    padding: 5px 15px;
+    justify-self: end;
+    align-self: center;
+}
+
+.text2{
+    background-color: black;
+    color: aqua;
+    padding: 5px 15px;
+    justify-self: start;
+    align-self: center;
+}
