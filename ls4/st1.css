@@ -1,0 +1,82 @@
+/* 1 */
+.fallNY {
+    text-align: center;
+}
+/* 2 */
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hhh {
+    background-color: orange;
+    padding: 10px 15px;
+    margin: 10px auto;
+}
+/* 3 */
+.hhh a{
+    color:rgba(96, 5, 5, 0.653) ;
+    background-color: rgb(237, 236, 131);
+    padding: 5px;
+    margin: 30px ;
+    border-radius: 10px;
+}
+/* 4 */
+a[target] {
+    font-size: 30px;
+    text-decoration: none;
+}
+/* 5 */
+nav{
+    text-align: center;
+}
+/* 6 */
+a[href="./homework1.html"]{
+    cursor: none;
+}
+/* 7 */
+p, strong{
+    font-style: normal;
+}
+/* 8 */
+span a {
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+/* 9 */
+#anything {
+    color: black;
+}
+/* 10 */
+b:hover {
+    background-color: rgba(64, 17, 122, 0.212);
+    cursor: pointer;
+
+}
+/* 11 */
+.fallNY > i {
+    margin: auto;
+}
+ 
+i a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+i:hover{
+    background-color: rgba(255, 0, 0, 0.612);
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+/* 12 */
+i:active {
+    background-color: green;
+}
+
+.vny{
+    text-align: center;
+}
+
