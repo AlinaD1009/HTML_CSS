@@ -1,0 +1,98 @@
+
+
+.navi {
+    background-color: rgb(83, 124, 124);
+    padding: 20px;
+    
+}
+.navi a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.navi strong{
+    margin: 500px;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.img {
+    border: 2px solid red;
+}
+
+.sing{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+.card {
+    margin: 20px;
+    padding: 15px 20px;
+    border: 2px solid red;
+    border-radius: 10px; 
+}
+
+.card{
+    position: relative;
+}
+
+.card .rr a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+
+} 
+
+.card .title {
+    position: absolute;
+    top: -20px;
+    padding: 30px 50px;
+    margin-left: 1000px;
+    background-color: aqua;
+}
+
+.k {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+     position: relative; /* позиція відносно самого себе */
+    z-index: 1;
+    margin: 0 auto;
+
+}
+
+.k2{
+    background-color: rgb(208, 255, 0);
+    position:absolute; /* позиція відносно всіэї сторінки */
+    top: 50px;
+    right: 10px;
+
+}
+
+.k3{
+    background-color: green;
+    position: absolute;
+
+}
+
+.k4{
+    background-color: blueviolet;
+    position: relative;
+}
+
+.k5{
+    background-color: rgb(47, 10, 59);
+    position: sticky;
+    left: 500px;
+}
