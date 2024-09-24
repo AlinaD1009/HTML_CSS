@@ -1,0 +1,13 @@
+ 
+
+1. Використання вiдносних одиниць(%, em ,rem, vh, vw)
+
+2. Використання властивостей(min-width, max-width, min-height, max-height)
+
+3. Використання flexbox abo Grid Layout
+
+4. Використання mediaquery @media (min-width: 420px) and (max-width: 1920px)
+
+5. Приховування елементiв mediaquery
+
+6. Використання пiдходу Mobile-first

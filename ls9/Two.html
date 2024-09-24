@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="" id="Secondform">
+        <h2 class="title"> Параметры поиска</h2>
+        <div>
+            <label for="select">Тип продукта</label>
+            <select name="list" id="select">
+                <option value="item-1">Телефон</option>
+                <option value="item-2">Ноутбук</option>
+                <option value="item-3">Пылесос</option>
+                <option value="item-4">Зарядка</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" id="LG" name="device">  <label for="LG">LG</label>    
+            <input type="checkbox" id="Asus" name="device">  <label for="Asus">Asus</label>
+            <input type="checkbox" id="Samsung" name="device"> <label for="Samsung">Samsung</label>
+            <input type="checkbox" id="Lenovo" name="device"> <label for="Lenovo">Lenovo</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="15w" name="wolt">  <label for="15w">15w</label>    
+            <input type="checkbox" id="25w" name="wolt">  <label for="25w">25w</label>
+            <input type="checkbox" id="65w" name="wolt"> <label for="65w">65w</label>
+            <input type="checkbox" id="100w" name="wolt"> <label for="100w">100w</label>
+            <input type="checkbox" id="200w" name="wolt"> <label for="200w">200w</label>
+        </div>
+
+        <div>
+            <label for="select">Сотрирование</label>
+            <select name="list" id="select">
+                <option value="num-1">От дешевых</option>
+                <option value="num-2">От дорогих</option>
+                <option value="num-3">По рейтингу</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="model">Название модели</label>
+            <input type="text" name="model" id="model">
+        </div>
+        <iframe class="log" src="./Three.html" frameborder="0"></iframe>
+        <div class="submit">
+            <input class="btn" type="submit" value="Найти">
+        </div>
+    </form>
+</body>
+</html>
